@@ -6,7 +6,7 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
-    private var m: Context
+    private var m: Context? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
